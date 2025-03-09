@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Load dataset
 day_df = pd.read_csv("/mount/src/submission-data-analyst/data/day.csv")
-hour_df = pd.read_csv("/mount/src/submission-data-analyst/data/hour.csv"")
+hour_df = pd.read_csv("/mount/src/submission-data-analyst/data/hour.csv")
 
 # Konversi kolom tanggal
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
